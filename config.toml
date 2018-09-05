@@ -1,0 +1,13 @@
+baseURL = "https://ak-z.github.io/fileclo/"
+title = "FiLeClo"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+DefaultContentLanguage = "pl"
+[languages]
+  [languages.pl]
+    contentDir = "content/pl"
+    languageName = "polski"
+    weight = 1
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 2
