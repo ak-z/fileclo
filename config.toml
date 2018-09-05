@@ -1,4 +1,4 @@
-baseURL = "https://ak-z.github.io/fileclo/"
+baseURL = "https://fileclo.pl/"
 title = "FiLeClo"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 DefaultContentLanguage = "pl"
