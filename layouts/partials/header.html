@@ -1,7 +1,7 @@
 {{ $currentPage := . }} {{ $currentLang := .Language.Lang }}
-<header class="relative flex flex-col pt-4 sm:pt-10 mb-24">
+<header class="relative flex flex-col pt-4 sm:pt-10">
   <a class="mw66 self-center z-10" href="{{ "" | absLangURL }}">{{- partial "logo.html" . -}}</a>
-  <div class="flex flex-col sm:items-end sm:flex-row sm:justify-between mt-4 md:-mt-6 pb-3 border-b border-green text-base uppercase">
+  <div class="flex flex-col sm:items-end sm:flex-row sm:justify-between mt-8 sm:mt-4 lg:-mt-6 pb-3 border-b border-green text-base uppercase">
     {{ with .Site.Menus.main }}
     <nav class="main-menu">
       <ul class="list-reset flex flex-wrap">

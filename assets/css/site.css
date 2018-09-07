@@ -1,4 +1,4 @@
-body {
+body, body.home {
   background-image: url(/img/tlo.jpg);
   font-family: 'Titillium Web', sans-serif;
   background-position: 50% 0;
@@ -12,16 +12,11 @@ body {
     background-size: auto, cover;
   }
 }
-body.home {
-  background-image: url(/img/tlo-home.png), url(/img/tlo.jpg);
-  background-position: 35% 320px, 50% 0;
-  background-size: contain, cover;
-}
-@media screen and (min-width: 1575px) {
-  body.home {
-    background-position: 35% 120px, 50% 0;
+/*@media screen and (min-width: 1500px) {
+  .tlo-home {
+    margin-top: -100px;
   }
-}
+}*/
 .container {
   max-width: 1920px;
 }
@@ -49,7 +44,7 @@ header:after {
   background: transparent url(/img/hexy.svg) 0 0 no-repeat;
   position: absolute;
   bottom: -70px;
-  left: 43%;
+  left: 42%;
   z-index: -1;
 }
 @media screen and (min-width: 321px) {
